@@ -97,7 +97,7 @@
 /* Highlight style CSS classes */
 
 /* Main classes taking the HTML elements from the carrd markdown */
-.highlighted-text mark {
+document.querySelector("#text07 > mark:nth-child(2)") .highlighted-text mark {
     background-color: transparent;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -106,6 +106,7 @@
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
@@ -275,6 +276,9 @@
 }
 .blue-08 mark {
     background-image: var(--blue-08);
+}
+.blue-08 mark:nth-child(2) {
+    background-image: var(--green-04);
 }
 .blue-09 mark {
     background-image: var(--blue-09);
