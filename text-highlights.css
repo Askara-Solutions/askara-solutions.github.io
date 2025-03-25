@@ -6,6 +6,8 @@
 
 :root {
   
+  --svgcolor: tomato;
+  
 /* Highlight style 1 */
   
 --pink-1: url('data:image/svg+xml;utf8, \
@@ -329,13 +331,7 @@ transform="matrix(0.13333333,0,0,-0.13333333,0,2666.6667)" /> \
 
 /* Highlight style CSS classes */
 svg {
-  fill: blue;
-}​
-.highlight {
-  fill: #ff17c1;
-  fill-opacity:1;
-  fill-rule:nonzero;
-  stroke:none;
+  fill="var(--svgcolor)";
 }
 
 .highlighted-text mark {
