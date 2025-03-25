@@ -330,7 +330,7 @@ transform="matrix(0.13333333,0,0,-0.13333333,0,2666.6667)" /> \
 
 
 /* Highlight style CSS classes */
-svg {
+svg > path {
   fill="var(--svgcolor)";
 }
 
