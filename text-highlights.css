@@ -419,6 +419,8 @@ background-repeat: no-repeat;
 background-size: contain;
 padding-top: 0.8em;
 min-height: 80px;
+  
+  transition: color 0.3s ease;
 }
 
 .highlight-box-green a.button:hover {
