@@ -277,7 +277,7 @@ document.querySelector("#text07 > mark:nth-child(2)") .highlighted-text mark {
 .blue-08 mark {
     background-image: var(--blue-08);
 }
-.blue-08 mark:nth-child(2) {
+.blue-08 mark:nth-of-type(2) {
     background-image: var(--green-04);
 }
 .blue-09 mark {
