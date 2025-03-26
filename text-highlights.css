@@ -651,28 +651,22 @@ ul.highlight-box-green > li > a.button,
     }
 }
 
-.customer-quote-left{
+.customer-quote{
+    aspect-ratio: 4 / 3;
     /* Assign the SVG variable */        
     background-image: var(--customer-quote-left);
     background-color: transparent;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 6em 3em 6em;
+    max-width: 600px;
+    
+    &:nth-of-type(2) {
+        background-image: var(--customer-quote-right);
+    }
 }
 
-.customer-quote-right{
-    /* Assign the SVG variable */        
-    background-image: var(--customer-quote-right);
-    background-color: transparent;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
