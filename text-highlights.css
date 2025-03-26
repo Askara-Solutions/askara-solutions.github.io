@@ -115,7 +115,6 @@
     padding-top: 5px;
     padding-bottom: 5px;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 /* Highlight style CSS classes - Pink */
@@ -655,9 +654,25 @@ ul.highlight-box-green > li > a.button,
 .customer-quote-left{
     /* Assign the SVG variable */        
     background-image: var(--customer-quote-left);
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .customer-quote-right{
     /* Assign the SVG variable */        
     background-image: var(--customer-quote-right);
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
