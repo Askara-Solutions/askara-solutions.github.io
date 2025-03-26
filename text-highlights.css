@@ -110,70 +110,7 @@
     transition: color 0.3s ease;
 }
 
-[class|="pink"] {
-    &[class$="-01"] {
-        background-image: var(--pink-01);
-    }
-    &[class$="-02"] {
-        background-image: var(--pink-02);
-    }
-    &[class$="-03"] {
-        background-image: var(--pink-03);
-    }
-    &[class$="-04"] {
-        background-image: var(--pink-04);
-    }
-    &[class$="-05"] {
-        background-image: var(--pink-05);
-    }
-    &[class$="-06"] {
-        background-image: var(--pink-06);
-    }
-    &[class$="-07"] {
-        background-image: var(--pink-07);
-    }
-    &[class$="-08"] {
-        background-image: var(--pink-08);
-    }
-    &[class$="-09"] {
-        background-image: var(--pink-09);
-    }
-    &[class$="-10"] {
-        background-image: var(--pink-10);
-    }
-    &[class$="-11"] {
-        background-image: var(--pink-11);
-    }
-    &[class$="-12"] {
-        background-image: var(--pink-12);
-    }
-    &[class$="-13"] {
-        background-image: var(--pink-13);
-    }
-    &[class$="-14"] {
-        background-image: var(--pink-14);
-    }
-    &[class$="-15"] {
-        background-image: var(--pink-15);
-    }
-    &[class$="-16"] {
-        background-image: var(--pink-16);
-    }
-    &[class$="-17"] {
-        background-image: var(--pink-17);
-    }
-    &[class$="-18"] {
-        background-image: var(--pink-18);
-    }
-    &[class$="-19"] {
-        background-image: var(--pink-19);
-    }
-    &[class$="-20"] {
-        background-image: var(--pink-20);
-    }
-}
-
-/* Highlight style CSS classes - Pink
+/* Highlight style CSS classes - Pink */
 .pink-01 mark {
     background-image: var(--pink-01);
 }
@@ -234,9 +171,8 @@
 .pink-20 mark {
     background-image: var(--pink-20);
 }
-*/
 
-/* Highlight style CSS classes - green */
+/* Highlight style CSS classes - Green */
 .green-01 mark {
     background-image: var(--green-01);
 }
@@ -331,9 +267,9 @@
 }
 .blue-08 mark {
     background-image: var(--blue-08);
-}
-.blue-08 mark:nth-of-type(2) {
-    background-image: var(--green-04);
+    &:nth-of-type(2) {
+        background-image: var(--green-04);
+    }
 }
 .blue-09 mark {
     background-image: var(--blue-09);
