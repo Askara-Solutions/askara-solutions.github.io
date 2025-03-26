@@ -625,7 +625,7 @@
     }
 }
 
-.highlight-box-green a.button {
+ul.highlight-box-green > li > a.button {
     background-color: transparent;
 
     /* Assign the SVG variable */
@@ -635,13 +635,12 @@
     background-size: contain;
     padding-top: 0.8em;
     min-height: 80px;
-
     transition: color 0.3s ease;
-}
 
-.highlight-box-green a.button:hover {
-    /* Assign the SVG variable */
-    background-image: var(--box-pink);
+    &:hover {
+        /* Assign the SVG variable */
+        background-image: var(--box-pink);
+    }
 }
 
 #form01 > div > div.actions > button:hover {
