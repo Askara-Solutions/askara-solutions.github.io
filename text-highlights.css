@@ -662,7 +662,8 @@ ul.highlight-box-green > li > a.button,
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em 6em 3em 6em;
+    padding: 10% 11% 14% 10%;
+    font-size: calc(0.9vw + 0.9vh);
     
     &:nth-of-type(even) {
         background-image: var(--customer-quote-right);
