@@ -97,7 +97,7 @@
 /* Highlight style CSS classes */
 
 /* Main classes taking the HTML elements from the carrd markdown */
-document.querySelector("#text07 > mark:nth-child(2)") .highlighted-text mark {
+.highlighted-text mark {
     background-color: transparent;
     background-position: 50% 50%;
     background-repeat: no-repeat;
