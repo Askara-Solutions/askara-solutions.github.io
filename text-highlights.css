@@ -651,7 +651,7 @@ ul.highlight-box-green > li > a.button,
     }
 }
 
-.customer-quote{
+.customer-quote em {
     aspect-ratio: 4 / 3;
     /* Assign the SVG variable */        
     background-image: var(--customer-quote-left);
