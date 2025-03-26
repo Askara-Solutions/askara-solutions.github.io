@@ -92,6 +92,10 @@
     --yellow-18: url("/svg/yellow/highlight_18.svg");
     --yellow-19: url("/svg/yellow/highlight_19.svg");
     --yellow-20: url("/svg/yellow/highlight_20.svg");
+
+    /* Highlight backgrounds - Boxes */
+    --box-green: url("/svg/green/box.svg");
+    --box-pink: url("/svg/pink/box.svg");
 }
 
 /* Highlight style CSS classes */
