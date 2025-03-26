@@ -659,13 +659,12 @@ ul.highlight-box-green > li > a.button,
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3em 6em 3em 6em;
-    max-width: 600px;
+    padding: 1em 6em 3em 6em;
     
-    &:nth-of-type(2) {
+    &:nth-of-type(even) {
         background-image: var(--customer-quote-right);
     }
 }
