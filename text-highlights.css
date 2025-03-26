@@ -96,6 +96,10 @@
     /* Highlight backgrounds - Boxes */
     --box-green: url("/svg/green/box.svg");
     --box-pink: url("/svg/pink/box.svg");
+    
+    /* Customer quote backgrounds */
+    --customer-quote-left: url("/svg/doodles/speach-bubble-left.svg");
+    --customer-quote-right: url("/svg/doodles/speach-bubble-right.svg");
 }
 
 /* Highlight style CSS classes */
@@ -646,4 +650,14 @@ ul.highlight-box-green > li > a.button,
         /* Assign the SVG variable */
         background-image: var(--box-green);
     }
+}
+
+.customer-quote-left{
+    /* Assign the SVG variable */        
+    background-image: var(--customer-quote-left);
+}
+
+.customer-quote-right{
+    /* Assign the SVG variable */        
+    background-image: var(--customer-quote-right);
 }
