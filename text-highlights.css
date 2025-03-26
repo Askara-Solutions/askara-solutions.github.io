@@ -110,7 +110,70 @@
     transition: color 0.3s ease;
 }
 
-/* Highlight style CSS classes - Pink */
+[class|="pink"] {
+    &[class$="-01"] {
+        background-image: var(--pink-01);
+    }
+    &[class$="-02"] {
+        background-image: var(--pink-02);
+    }
+    &[class$="-03"] {
+        background-image: var(--pink-03);
+    }
+    &[class$="-04"] {
+        background-image: var(--pink-04);
+    }
+    &[class$="-05"] {
+        background-image: var(--pink-05);
+    }
+    &[class$="-06"] {
+        background-image: var(--pink-06);
+    }
+    &[class$="-07"] {
+        background-image: var(--pink-07);
+    }
+    &[class$="-08"] {
+        background-image: var(--pink-08);
+    }
+    &[class$="-09"] {
+        background-image: var(--pink-09);
+    }
+    &[class$="-10"] {
+        background-image: var(--pink-10);
+    }
+    &[class$="-11"] {
+        background-image: var(--pink-11);
+    }
+    &[class$="-12"] {
+        background-image: var(--pink-12);
+    }
+    &[class$="-13"] {
+        background-image: var(--pink-13);
+    }
+    &[class$="-14"] {
+        background-image: var(--pink-14);
+    }
+    &[class$="-15"] {
+        background-image: var(--pink-15);
+    }
+    &[class$="-16"] {
+        background-image: var(--pink-16);
+    }
+    &[class$="-17"] {
+        background-image: var(--pink-17);
+    }
+    &[class$="-18"] {
+        background-image: var(--pink-18);
+    }
+    &[class$="-19"] {
+        background-image: var(--pink-19);
+    }
+    &[class$="-20"] {
+        background-image: var(--pink-20);
+    }
+}
+
+/* Highlight style CSS classes - Pink
 .pink-01 mark {
     background-image: var(--pink-01);
 }
@@ -145,41 +208,33 @@
     background-image: var(--pink-11);
 }
 .pink-12 mark {
-    /* Assign the SVG variable */
     background-image: var(--pink-12);
 }
 .pink-13 mark {
-    /* Assign the SVG variable */
     background-image: var(--pink-13);
 }
 .pink-14 mark {
-    /* Assign the SVG variable */
     background-image: var(--pink-14);
 }
 .pink-15 mark {
-    /* Assign the SVG variable */
     background-image: var(--pink-15);
 }
 .pink-16 mark {
-    /* Assign the SVG variable */
     background-image: var(--pink-16);
 }
 .pink-17 mark {
-    /* Assign the SVG variable */
     background-image: var(--pink-17);
 }
 .pink-18 mark {
-    /* Assign the SVG variable */
     background-image: var(--pink-18);
 }
 .pink-19 mark {
-    /* Assign the SVG variable */
     background-image: var(--pink-19);
 }
 .pink-20 mark {
-    /* Assign the SVG variable */
     background-image: var(--pink-20);
 }
+*/
 
 /* Highlight style CSS classes - green */
 .green-01 mark {
