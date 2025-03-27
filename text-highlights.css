@@ -779,6 +779,32 @@ ul.highlight-box-green > li > a.button,
     float: right;
 }
 
+/* Add speach bubble icons to text with the .quotes class */
+.quotes::before {
+    content: "";
+    display: block;
+    width: 133px; /* Adjust as needed */
+    height: 134px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-globe.svg");
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: -2em;
+    float: left;
+}
+.quotes::after {
+    content: "";
+    display: block;
+    width: 133px; /* Adjust as needed */
+    height: 63px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-rocket-right.svg");
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: -2em;
+    float: right;
+}
+
 .customer-quote em {
     aspect-ratio: 4 / 3;
     /* Assign the SVG variable */
