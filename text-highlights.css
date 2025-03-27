@@ -96,7 +96,7 @@
     /* Highlight backgrounds - Boxes */
     --box-green: url("/svg/green/box.svg");
     --box-pink: url("/svg/pink/box.svg");
-    
+
     /* Customer quote backgrounds */
     --customer-quote-left: url("/svg/doodles/speach-bubble-left.svg");
     --customer-quote-right: url("/svg/doodles/speach-bubble-right.svg");
@@ -643,7 +643,6 @@ ul.highlight-box-green > li > a.button,
     background-size: contain;
     padding-top: 0.8em;
     min-height: 80px;
-    transition: color 0.3s ease;
 
     &:hover {
         /* Assign the SVG variable */
@@ -653,7 +652,7 @@ ul.highlight-box-green > li > a.button,
 
 .customer-quote p {
     aspect-ratio: 4 / 3;
-    /* Assign the SVG variable */        
+    /* Assign the SVG variable */
     background-image: var(--customer-quote-left);
     background-color: transparent;
     background-position: 50% 50%;
@@ -664,9 +663,8 @@ ul.highlight-box-green > li > a.button,
     align-items: center;
     padding: 10% 11% 14% 10%;
     font-size: calc(0.9vw + 0.9vh);
-    
+
     &:nth-of-type(even) {
         background-image: var(--customer-quote-right);
     }
 }
-
