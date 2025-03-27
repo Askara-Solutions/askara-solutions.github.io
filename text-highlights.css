@@ -665,8 +665,9 @@ ul.highlight-box-green > li > a.button,
 .check strong::before {
     content: url("/svg/doodles/icon-check-green.svg");
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
     margin-right: 5px;
 }
 
@@ -688,4 +689,3 @@ ul.highlight-box-green > li > a.button,
         background-image: var(--customer-quote-right);
     }
 }
-
