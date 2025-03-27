@@ -661,10 +661,12 @@ ul.highlight-box-green > li > a.button,
     }
 }
 
-/html/body/div[2]/div/div/section[1]/div[4]/div/div/div[1]/p[1]/em
-    /html/body/div[2]/div/div/section[1]/div[4]/div/div/div[2]/p[1]/em
-    .customer-quote
-    em {
+/* Add check icon to bold text with the .check class */
+.check strong::before {
+    background-image: url("/svg/doodles/icon-check-green.svg");
+}
+
+.customer-quote em {
     aspect-ratio: 4 / 3;
     /* Assign the SVG variable */
     background-image: var(--customer-quote-left);
