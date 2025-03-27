@@ -671,6 +671,24 @@ ul.highlight-box-green > li > a.button,
     margin-right: 5px;
 }
 
+/* Add star icons to text with the .star class */
+.stars strong::before {
+    content: url("/svg/doodles/icon-star-yellow-01.svg");
+    display: inline-block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 15px;
+}
+.stars strong::after {
+    content: url("/svg/doodles/icon-star-yellow-02.svg");
+    display: inline-block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15px;
+}
+
 .customer-quote em {
     aspect-ratio: 4 / 3;
     /* Assign the SVG variable */
