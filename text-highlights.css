@@ -711,6 +711,23 @@ ul.highlight-box-green > li > a.button,
     background-size: contain;
     margin-left: 40px;
 }
+/* Add lightbulb icons to text with the .lightbulbs class */
+.lightbulbs::before {
+    content: url("/svg/doodles/icon-lightbulb-left.svg");
+    display: inline-block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+}
+.lightbulbs::after {
+    content: url("/svg/doodles/icon-lightbulb-right.svg");
+    display: inline-block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+}
 
 .customer-quote em {
     aspect-ratio: 4 / 3;
