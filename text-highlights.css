@@ -693,6 +693,32 @@ ul.highlight-box-green > li > a.button,
     margin-right: 1rem;
 }
 
+/* Add icons to text with the .intro class */
+.intro::before {
+    content: "";
+    display: block;
+    width: 79px; /* Adjust as needed */
+    height: 76px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-star-yellow-01.svg");
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: -3em;
+    float: left;
+}
+.intro::after {
+    content: "";
+    display: block;
+    width: 79px; /* Adjust as needed */
+    height: 76px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-star-yellow-02.svg");
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: -3em;
+    float: right;
+}
+
 /* Add star icons to text with the .star class */
 .stars strong {
     font-size: 1.25em;
@@ -721,6 +747,7 @@ ul.highlight-box-green > li > a.button,
     right: -3em;
     float: right;
 }
+
 /* Add lightbulb icons to text with the .lightbulbs class */
 .lightbulbs {
     align-content: center;
