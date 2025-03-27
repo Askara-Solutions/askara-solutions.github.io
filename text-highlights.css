@@ -714,6 +714,8 @@ ul.highlight-box-green > li > a.button,
 /* Add lightbulb icons to text with the .lightbulbs class */
 .lightbulbs {
     align-content: center;
+    position: relative; /* Ensures ::after aligns properly */
+    display: inline-block; /* Helps keep it aligned with content */
 }
 .lightbulbs::before {
     content: url("/svg/doodles/icon-lightbulb-left.svg");
@@ -723,14 +725,20 @@ ul.highlight-box-green > li > a.button,
     background-size: contain;
     margin-right: 40px;
     float: left;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .lightbulbs::after {
-    content: url("/svg/doodles/icon-lightbulb-right.svg");
-    display: inline-block;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-lightbulb-right.svg");
     background-size: contain;
-    margin-left: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
     float: right;
 }
 
