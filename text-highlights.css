@@ -723,7 +723,7 @@ ul.highlight-box-green > li > a.button,
 .stars strong {
     font-size: 1.25em;
 }
-.stars strong::before {
+.stars::before {
     content: "";
     display: block;
     width: 79px; /* Adjust as needed */
@@ -735,7 +735,7 @@ ul.highlight-box-green > li > a.button,
     left: -3em;
     float: left;
 }
-.stars strong::after {
+.stars::after {
     content: "";
     display: block;
     width: 79px; /* Adjust as needed */
