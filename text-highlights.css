@@ -718,22 +718,22 @@ ul.highlight-box-green > li > a.button,
     display: inline-block; /* Helps keep it aligned with content */
 }
 .lightbulbs::before {
-    content: url("/svg/doodles/icon-lightbulb-left.svg");
-    display: inline-block;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    width: 44px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-lightbulb-left.svg");
     background-size: contain;
-    margin-right: 40px;
-    float: left;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
+    float: left;
 }
 .lightbulbs::after {
     content: "";
     display: block;
-    width: 50px; /* Adjust as needed */
-    height: 50px; /* Adjust as needed */
+    width: 44px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-lightbulb-right.svg");
     background-size: contain;
     position: absolute;
