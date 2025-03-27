@@ -716,7 +716,7 @@ ul.highlight-box-green > li > a.button,
     background-size: contain;
     position: absolute;
     top: 0;
-    left: -3em;
+    right: -3em;
     float: right;
 }
 /* Add lightbulb icons to text with the .lightbulbs class */
