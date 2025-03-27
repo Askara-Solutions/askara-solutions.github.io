@@ -689,10 +689,8 @@ ul.highlight-box-green > li > a.button,
     height: 30px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-thumb-up.svg");
     background-size: contain;
-    position: absolute;
-    top: 0;
-    left: -3em;
     float: left;
+    margin-right: 1rem;
 }
 
 /* Add star icons to text with the .star class */
