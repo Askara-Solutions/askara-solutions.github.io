@@ -663,7 +663,11 @@ ul.highlight-box-green > li > a.button,
 
 /* Add check icon to bold text with the .check class */
 .check strong::before {
-    background-image: url("/svg/doodles/icon-check-green.svg");
+    content: url("/svg/doodles/icon-check-green.svg");
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
 }
 
 .customer-quote em {
@@ -684,3 +688,4 @@ ul.highlight-box-green > li > a.button,
         background-image: var(--customer-quote-right);
     }
 }
+
