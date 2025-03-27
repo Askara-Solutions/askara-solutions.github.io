@@ -661,9 +661,19 @@ ul.highlight-box-green > li > a.button,
     }
 }
 
-/* Add check icon to bold text with the .check class */
+/* Add check icon to bold text with the .check-green class */
 .check strong::before {
     content: url("/svg/doodles/icon-check-green.svg");
+    display: inline-block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+/* Add check icon to bold text with the .check-blue class */
+.check strong::before {
+    content: url("/svg/doodles/icon-check-blue.svg");
     display: inline-block;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -678,10 +688,13 @@ ul.highlight-box-green > li > a.button,
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 /* Add star icons to text with the .star class */
+.stars strong {
+    font-size: 1.25em;
+}
 .stars strong::before {
     content: url("/svg/doodles/icon-star-yellow-01.svg");
     display: inline-block;
