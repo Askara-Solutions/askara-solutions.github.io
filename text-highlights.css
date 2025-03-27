@@ -696,20 +696,28 @@ ul.highlight-box-green > li > a.button,
     font-size: 1.25em;
 }
 .stars strong::before {
-    content: url("/svg/doodles/icon-star-yellow-01.svg");
-    display: inline-block;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    width: 79px; /* Adjust as needed */
+    height: 76px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-star-yellow-01.svg");
     background-size: contain;
-    margin-right: 40px;
+    position: absolute;
+    top: 0;
+    left: -3em;
+    float: left;
 }
 .stars strong::after {
-    content: url("/svg/doodles/icon-star-yellow-02.svg");
-    display: inline-block;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    width: 79px; /* Adjust as needed */
+    height: 76px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-star-yellow-02.svg");
     background-size: contain;
-    margin-left: 40px;
+    position: absolute;
+    top: 0;
+    left: -3em;
+    float: right;
 }
 /* Add lightbulb icons to text with the .lightbulbs class */
 .lightbulbs {
@@ -726,7 +734,7 @@ ul.highlight-box-green > li > a.button,
     background-size: contain;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -3em;
     float: left;
 }
 .lightbulbs::after {
@@ -738,7 +746,7 @@ ul.highlight-box-green > li > a.button,
     background-size: contain;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -3em;
     float: right;
 }
 
