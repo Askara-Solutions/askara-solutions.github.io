@@ -662,7 +662,7 @@ ul.highlight-box-green > li > a.button,
 }
 
 /* Add check icon to bold text with the .check-green class */
-.check strong::before {
+.check-green strong::before {
     content: url("/svg/doodles/icon-check-green.svg");
     display: inline-block;
     background-position: 50% 50%;
@@ -672,7 +672,7 @@ ul.highlight-box-green > li > a.button,
 }
 
 /* Add check icon to bold text with the .check-blue class */
-.check strong::before {
+.check-blue strong::before {
     content: url("/svg/doodles/icon-check-blue.svg");
     display: inline-block;
     background-position: 50% 50%;
