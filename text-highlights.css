@@ -119,259 +119,6 @@
     font-weight: 300;
 }
 
-/* Highlight style CSS classes - Pink */
-.pink-01 mark {
-    background-image: var(--pink-01);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-02 mark {
-    background-image: var(--pink-02);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-03 mark {
-    background-image: var(--pink-03);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-04 mark {
-    background-image: var(--pink-04);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-05 mark {
-    background-image: var(--pink-05);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-06 mark {
-    background-image: var(--pink-06);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-07 mark {
-    background-image: var(--pink-07);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-08 mark {
-    background-image: var(--pink-08);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-09 mark {
-    background-image: var(--pink-09);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-10 mark {
-    background-image: var(--pink-10);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-11 mark {
-    background-image: var(--pink-11);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-12 mark {
-    background-image: var(--pink-12);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-13 mark {
-    background-image: var(--pink-13);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-14 mark {
-    background-image: var(--pink-14);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-15 mark {
-    background-image: var(--pink-15);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-16 mark {
-    background-image: var(--pink-16);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-17 mark {
-    background-image: var(--pink-17);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-18 mark {
-    background-image: var(--pink-18);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-19 mark {
-    background-image: var(--pink-19);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-.pink-20 mark {
-    background-image: var(--pink-20);
-    &:nth-of-type(2) {
-        background-image: var(--green-04);
-    }
-}
-
-/* Highlight style CSS classes - Green */
-.green-01 mark {
-    background-image: var(--green-01);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-02 mark {
-    background-image: var(--green-02);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-03 mark {
-    background-image: var(--green-03);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-04 mark {
-    background-image: var(--green-04);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-05 mark {
-    background-image: var(--green-05);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-06 mark {
-    background-image: var(--green-06);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-07 mark {
-    background-image: var(--green-07);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-08 mark {
-    background-image: var(--green-08);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-09 mark {
-    background-image: var(--green-09);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-10 mark {
-    background-image: var(--green-10);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-11 mark {
-    background-image: var(--green-11);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-12 mark {
-    /* Assign the SVG variable */
-    background-image: var(--green-12);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-13 mark {
-    /* Assign the SVG variable */
-    background-image: var(--green-13);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-14 mark {
-    /* Assign the SVG variable */
-    background-image: var(--green-14);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-15 mark {
-    /* Assign the SVG variable */
-    background-image: var(--green-15);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-16 mark {
-    /* Assign the SVG variable */
-    background-image: var(--green-16);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-17 mark {
-    /* Assign the SVG variable */
-    background-image: var(--green-17);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-18 mark {
-    /* Assign the SVG variable */
-    background-image: var(--green-18);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-19 mark {
-    /* Assign the SVG variable */
-    background-image: var(--green-19);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-.green-20 mark {
-    /* Assign the SVG variable */
-    background-image: var(--green-20);
-    &:nth-of-type(2) {
-        background-image: var(--blue-04);
-    }
-}
-
 /* Highlight style CSS classes - blue */
 .blue-01 mark {
     background-image: var(--blue-01);
@@ -507,130 +254,392 @@
 .yellow-01 mark {
     background-image: var(--yellow-01);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-11);
     }
 }
 .yellow-02 mark {
     background-image: var(--yellow-02);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-08);
     }
 }
 .yellow-03 mark {
     background-image: var(--yellow-03);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-04);
     }
 }
 .yellow-04 mark {
     background-image: var(--yellow-04);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-10);
     }
 }
 .yellow-05 mark {
     background-image: var(--yellow-05);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-09);
     }
 }
 .yellow-06 mark {
     background-image: var(--yellow-06);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-02);
     }
 }
 .yellow-07 mark {
     background-image: var(--yellow-07);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-12);
     }
 }
 .yellow-08 mark {
     background-image: var(--yellow-08);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-13);
     }
 }
 .yellow-09 mark {
     background-image: var(--yellow-09);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-07);
     }
 }
 .yellow-10 mark {
     background-image: var(--yellow-10);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-20);
     }
 }
 .yellow-11 mark {
     background-image: var(--yellow-11);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-03);
     }
 }
 .yellow-12 mark {
     /* Assign the SVG variable */
     background-image: var(--yellow-12);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-16);
     }
 }
 .yellow-13 mark {
     /* Assign the SVG variable */
     background-image: var(--yellow-13);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-05);
     }
 }
 .yellow-14 mark {
     /* Assign the SVG variable */
     background-image: var(--yellow-14);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-19);
     }
 }
 .yellow-15 mark {
     /* Assign the SVG variable */
     background-image: var(--yellow-15);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-01);
     }
 }
 .yellow-16 mark {
     /* Assign the SVG variable */
     background-image: var(--yellow-16);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-06);
     }
 }
 .yellow-17 mark {
     /* Assign the SVG variable */
     background-image: var(--yellow-17);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-18);
     }
 }
 .yellow-18 mark {
     /* Assign the SVG variable */
     background-image: var(--yellow-18);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-14);
     }
 }
 .yellow-19 mark {
     /* Assign the SVG variable */
     background-image: var(--yellow-19);
     &:nth-of-type(2) {
-        background-image: var(--green-04);
+        background-image: var(--blue-17);
     }
 }
 .yellow-20 mark {
     /* Assign the SVG variable */
     background-image: var(--yellow-20);
     &:nth-of-type(2) {
+        background-image: var(--blue-15);
+    }
+}
+
+/* Highlight style CSS classes - green */
+.green-01 mark {
+    background-image: var(--green-01);
+    &:nth-of-type(2) {
+        background-image: var(--pink-11);
+    }
+}
+.green-02 mark {
+    background-image: var(--green-02);
+    &:nth-of-type(2) {
+        background-image: var(--pink-08);
+    }
+}
+.green-03 mark {
+    background-image: var(--green-03);
+    &:nth-of-type(2) {
+        background-image: var(--pink-04);
+    }
+}
+.green-04 mark {
+    background-image: var(--green-04);
+    &:nth-of-type(2) {
+        background-image: var(--pink-10);
+    }
+}
+.green-05 mark {
+    background-image: var(--green-05);
+    &:nth-of-type(2) {
+        background-image: var(--pink-09);
+    }
+}
+.green-06 mark {
+    background-image: var(--green-06);
+    &:nth-of-type(2) {
+        background-image: var(--pink-02);
+    }
+}
+.green-07 mark {
+    background-image: var(--green-07);
+    &:nth-of-type(2) {
+        background-image: var(--pink-12);
+    }
+}
+.green-08 mark {
+    background-image: var(--green-08);
+    &:nth-of-type(2) {
+        background-image: var(--pink-13);
+    }
+}
+.green-09 mark {
+    background-image: var(--green-09);
+    &:nth-of-type(2) {
+        background-image: var(--pink-07);
+    }
+}
+.green-10 mark {
+    background-image: var(--green-10);
+    &:nth-of-type(2) {
+        background-image: var(--pink-20);
+    }
+}
+.green-11 mark {
+    background-image: var(--green-11);
+    &:nth-of-type(2) {
+        background-image: var(--pink-03);
+    }
+}
+.green-12 mark {
+    /* Assign the SVG variable */
+    background-image: var(--green-12);
+    &:nth-of-type(2) {
+        background-image: var(--pink-16);
+    }
+}
+.green-13 mark {
+    /* Assign the SVG variable */
+    background-image: var(--green-13);
+    &:nth-of-type(2) {
+        background-image: var(--pink-05);
+    }
+}
+.green-14 mark {
+    /* Assign the SVG variable */
+    background-image: var(--green-14);
+    &:nth-of-type(2) {
+        background-image: var(--pink-19);
+    }
+}
+.green-15 mark {
+    /* Assign the SVG variable */
+    background-image: var(--green-15);
+    &:nth-of-type(2) {
+        background-image: var(--pink-01);
+    }
+}
+.green-16 mark {
+    /* Assign the SVG variable */
+    background-image: var(--green-16);
+    &:nth-of-type(2) {
+        background-image: var(--pink-06);
+    }
+}
+.green-17 mark {
+    /* Assign the SVG variable */
+    background-image: var(--green-17);
+    &:nth-of-type(2) {
+        background-image: var(--pink-18);
+    }
+}
+.green-18 mark {
+    /* Assign the SVG variable */
+    background-image: var(--green-18);
+    &:nth-of-type(2) {
+        background-image: var(--pink-14);
+    }
+}
+.green-19 mark {
+    /* Assign the SVG variable */
+    background-image: var(--green-19);
+    &:nth-of-type(2) {
+        background-image: var(--pink-17);
+    }
+}
+.green-20 mark {
+    /* Assign the SVG variable */
+    background-image: var(--green-20);
+    &:nth-of-type(2) {
+        background-image: var(--pink-15);
+    }
+}
+
+/* Highlight style CSS classes - pink */
+.pink-01 mark {
+    background-image: var(--pink-01);
+    &:nth-of-type(2) {
+        background-image: var(--green-11);
+    }
+}
+.pink-02 mark {
+    background-image: var(--pink-02);
+    &:nth-of-type(2) {
+        background-image: var(--green-08);
+    }
+}
+.pink-03 mark {
+    background-image: var(--pink-03);
+    &:nth-of-type(2) {
         background-image: var(--green-04);
+    }
+}
+.pink-04 mark {
+    background-image: var(--pink-04);
+    &:nth-of-type(2) {
+        background-image: var(--green-10);
+    }
+}
+.pink-05 mark {
+    background-image: var(--pink-05);
+    &:nth-of-type(2) {
+        background-image: var(--green-09);
+    }
+}
+.pink-06 mark {
+    background-image: var(--pink-06);
+    &:nth-of-type(2) {
+        background-image: var(--green-02);
+    }
+}
+.pink-07 mark {
+    background-image: var(--pink-07);
+    &:nth-of-type(2) {
+        background-image: var(--green-12);
+    }
+}
+.pink-08 mark {
+    background-image: var(--pink-08);
+    &:nth-of-type(2) {
+        background-image: var(--green-13);
+    }
+}
+.pink-09 mark {
+    background-image: var(--pink-09);
+    &:nth-of-type(2) {
+        background-image: var(--green-07);
+    }
+}
+.pink-10 mark {
+    background-image: var(--pink-10);
+    &:nth-of-type(2) {
+        background-image: var(--green-20);
+    }
+}
+.pink-11 mark {
+    background-image: var(--pink-11);
+    &:nth-of-type(2) {
+        background-image: var(--green-03);
+    }
+}
+.pink-12 mark {
+    /* Assign the SVG variable */
+    background-image: var(--pink-12);
+    &:nth-of-type(2) {
+        background-image: var(--green-16);
+    }
+}
+.pink-13 mark {
+    /* Assign the SVG variable */
+    background-image: var(--pink-13);
+    &:nth-of-type(2) {
+        background-image: var(--green-05);
+    }
+}
+.pink-14 mark {
+    /* Assign the SVG variable */
+    background-image: var(--pink-14);
+    &:nth-of-type(2) {
+        background-image: var(--green-19);
+    }
+}
+.pink-15 mark {
+    /* Assign the SVG variable */
+    background-image: var(--pink-15);
+    &:nth-of-type(2) {
+        background-image: var(--green-01);
+    }
+}
+.pink-16 mark {
+    /* Assign the SVG variable */
+    background-image: var(--pink-16);
+    &:nth-of-type(2) {
+        background-image: var(--green-06);
+    }
+}
+.pink-17 mark {
+    /* Assign the SVG variable */
+    background-image: var(--pink-17);
+    &:nth-of-type(2) {
+        background-image: var(--green-18);
+    }
+}
+.pink-18 mark {
+    /* Assign the SVG variable */
+    background-image: var(--pink-18);
+    &:nth-of-type(2) {
+        background-image: var(--green-14);
+    }
+}
+.pink-19 mark {
+    /* Assign the SVG variable */
+    background-image: var(--pink-19);
+    &:nth-of-type(2) {
+        background-image: var(--green-17);
+    }
+}
+.pink-20 mark {
+    /* Assign the SVG variable */
+    background-image: var(--pink-20);
+    &:nth-of-type(2) {
+        background-image: var(--green-15);
     }
 }
 
