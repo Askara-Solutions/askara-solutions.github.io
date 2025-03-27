@@ -376,13 +376,13 @@
 .blue-01 mark {
     background-image: var(--blue-01);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-11);
     }
 }
 .blue-02 mark {
     background-image: var(--blue-02);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-08);
     }
 }
 .blue-03 mark {
@@ -394,112 +394,112 @@
 .blue-04 mark {
     background-image: var(--blue-04);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-10);
     }
 }
 .blue-05 mark {
     background-image: var(--blue-05);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-09);
     }
 }
 .blue-06 mark {
     background-image: var(--blue-06);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-02);
     }
 }
 .blue-07 mark {
     background-image: var(--blue-07);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-12);
     }
 }
 .blue-08 mark {
     background-image: var(--blue-08);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-13);
     }
 }
 .blue-09 mark {
     background-image: var(--blue-09);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-07);
     }
 }
 .blue-10 mark {
     background-image: var(--blue-10);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-20);
     }
 }
 .blue-11 mark {
     background-image: var(--blue-11);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-03);
     }
 }
 .blue-12 mark {
     /* Assign the SVG variable */
     background-image: var(--blue-12);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-16);
     }
 }
 .blue-13 mark {
     /* Assign the SVG variable */
     background-image: var(--blue-13);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-05);
     }
 }
 .blue-14 mark {
     /* Assign the SVG variable */
     background-image: var(--blue-14);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-19);
     }
 }
 .blue-15 mark {
     /* Assign the SVG variable */
     background-image: var(--blue-15);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-01);
     }
 }
 .blue-16 mark {
     /* Assign the SVG variable */
     background-image: var(--blue-16);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-06);
     }
 }
 .blue-17 mark {
     /* Assign the SVG variable */
     background-image: var(--blue-17);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-18);
     }
 }
 .blue-18 mark {
     /* Assign the SVG variable */
     background-image: var(--blue-18);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-14);
     }
 }
 .blue-19 mark {
     /* Assign the SVG variable */
     background-image: var(--blue-19);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-17);
     }
 }
 .blue-20 mark {
     /* Assign the SVG variable */
     background-image: var(--blue-20);
     &:nth-of-type(2) {
-        background-image: var(--yellow-04);
+        background-image: var(--yellow-15);
     }
 }
 
@@ -653,9 +653,9 @@ ul.highlight-box-green > li > a.button,
 }
 
 /html/body/div[2]/div/div/section[1]/div[4]/div/div/div[1]/p[1]/em
-/html/body/div[2]/div/div/section[1]/div[4]/div/div/div[2]/p[1]/em
-
-.customer-quote em {
+    /html/body/div[2]/div/div/section[1]/div[4]/div/div/div[2]/p[1]/em
+    .customer-quote
+    em {
     aspect-ratio: 4 / 3;
     /* Assign the SVG variable */
     background-image: var(--customer-quote-left);
