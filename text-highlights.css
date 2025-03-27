@@ -695,21 +695,21 @@ ul.highlight-box-green > li > a.button,
 .stars strong {
     font-size: 1.25em;
 }
-.stars::before {
+.stars strong::before {
     content: url("/svg/doodles/icon-star-yellow-01.svg");
     display: inline-block;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 25px;
+    margin-right: 40px;
 }
-.stars::after {
+.stars strong::after {
     content: url("/svg/doodles/icon-star-yellow-02.svg");
     display: inline-block;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 .customer-quote em {
