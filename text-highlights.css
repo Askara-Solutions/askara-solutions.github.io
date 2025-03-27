@@ -712,6 +712,9 @@ ul.highlight-box-green > li > a.button,
     margin-left: 40px;
 }
 /* Add lightbulb icons to text with the .lightbulbs class */
+.lightbulbs {
+    align-content: center;
+}
 .lightbulbs::before {
     content: url("/svg/doodles/icon-lightbulb-left.svg");
     display: inline-block;
@@ -719,6 +722,7 @@ ul.highlight-box-green > li > a.button,
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: 40px;
+    float: left;
 }
 .lightbulbs::after {
     content: url("/svg/doodles/icon-lightbulb-right.svg");
@@ -727,6 +731,7 @@ ul.highlight-box-green > li > a.button,
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 40px;
+    float: right;
 }
 
 .customer-quote em {
