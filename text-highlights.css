@@ -689,6 +689,7 @@ ul.highlight-box-green > li > a.button,
     height: 30px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-thumb-up.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     float: left;
     margin-right: 1rem;
 }
@@ -701,6 +702,7 @@ ul.highlight-box-green > li > a.button,
     height: 67px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-globe.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     left: -3em;
@@ -713,6 +715,7 @@ ul.highlight-box-green > li > a.button,
     height: 64px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-rocket-right.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     right: -3em;
@@ -730,6 +733,7 @@ ul.highlight-box-green > li > a.button,
     height: 76px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-star-yellow-01.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     left: -3em;
@@ -742,6 +746,7 @@ ul.highlight-box-green > li > a.button,
     height: 76px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-star-yellow-02.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     right: -3em;
@@ -761,6 +766,7 @@ ul.highlight-box-green > li > a.button,
     height: 60px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-lightbulb-left.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     left: -3em;
@@ -773,6 +779,7 @@ ul.highlight-box-green > li > a.button,
     height: 60px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-lightbulb-right.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     right: -3em;
@@ -787,9 +794,10 @@ ul.highlight-box-green > li > a.button,
     height: 66px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-speech-bubble-01-left.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: -3em;
-    right: -5em;
+    left: -5em;
     float: left;
     margin-right: 5px;
 }
@@ -801,9 +809,10 @@ ul.highlight-box-green > li > a.button,
     height: 66px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-speech-bubble-01-right.svg");
     background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: -3em;
-    left: -5em;
+    right: -5em;
     float: right;
     margin-left: 5px;
 }
