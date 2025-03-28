@@ -697,9 +697,9 @@ ul.highlight-box-green > li > a.button,
 .intro::before {
     content: "";
     display: block;
-    width: 79px; /* Adjust as needed */
-    height: 76px; /* Adjust as needed */
-    background-image: url("/svg/doodles/icon-star-yellow-01.svg");
+    width: 67px; /* Adjust as needed */
+    height: 67px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-globe.svg");
     background-size: contain;
     position: absolute;
     top: 0;
@@ -709,9 +709,9 @@ ul.highlight-box-green > li > a.button,
 .intro::after {
     content: "";
     display: block;
-    width: 79px; /* Adjust as needed */
-    height: 76px; /* Adjust as needed */
-    background-image: url("/svg/doodles/icon-star-yellow-02.svg");
+    width: 133px; /* Adjust as needed */
+    height: 64px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-rocket-right.svg");
     background-size: contain;
     position: absolute;
     top: 0;
@@ -780,29 +780,15 @@ ul.highlight-box-green > li > a.button,
 }
 
 /* Add speach bubble icons to text with the .quotes class */
-.quotes::before {
+.quotes strong::before {
     content: "";
     display: block;
-    width: 133px; /* Adjust as needed */
-    height: 134px; /* Adjust as needed */
-    background-image: url("/svg/doodles/icon-globe.svg");
+    width: 80px; /* Adjust as needed */
+    height: 66px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-speech-bubble-01-left.svg");
     background-size: contain;
-    position: absolute;
-    top: 0;
-    left: -2em;
     float: left;
-}
-.quotes::after {
-    content: "";
-    display: block;
-    width: 133px; /* Adjust as needed */
-    height: 63px; /* Adjust as needed */
-    background-image: url("/svg/doodles/icon-rocket-right.svg");
-    background-size: contain;
-    position: absolute;
-    top: 0;
-    right: -2em;
-    float: right;
+    margin-right: 1rem;
 }
 
 .customer-quote em {
