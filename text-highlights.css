@@ -787,7 +787,7 @@ ul.highlight-box-green > li > a.button,
 }
 
 /* Add speach bubble icons to text with the .quotes class */
-.quotes strong::before {
+.quotes::before {
     content: "";
     display: block;
     width: 80px; /* Adjust as needed */
@@ -802,7 +802,7 @@ ul.highlight-box-green > li > a.button,
     margin-right: 5px;
 }
 
-.quotes strong::after {
+.quotes::after {
     content: "";
     display: block;
     width: 80px; /* Adjust as needed */
