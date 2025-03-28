@@ -787,8 +787,25 @@ ul.highlight-box-green > li > a.button,
     height: 66px; /* Adjust as needed */
     background-image: url("/svg/doodles/icon-speech-bubble-01-left.svg");
     background-size: contain;
+    position: absolute;
+    top: -3em;
+    right: -5em;
     float: left;
-    margin-right: 1rem;
+    margin-right: 5px;
+}
+
+.quotes strong::after {
+    content: "";
+    display: block;
+    width: 80px; /* Adjust as needed */
+    height: 66px; /* Adjust as needed */
+    background-image: url("/svg/doodles/icon-speech-bubble-01-right.svg");
+    background-size: contain;
+    position: absolute;
+    top: -3em;
+    left: -5em;
+    float: right;
+    margin-left: 5px;
 }
 
 .customer-quote em {
