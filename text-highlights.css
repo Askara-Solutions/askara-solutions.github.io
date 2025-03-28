@@ -683,14 +683,13 @@ ul.highlight-box-green > li > a.button,
 
 /* Add thumb up icon to bold text with the .thumb class */
 .thumb strong::before {
-    content: "";
-    display: block;
     width: 36px; /* Adjust as needed */
     height: 30px; /* Adjust as needed */
-    background-image: url("/svg/doodles/icon-thumb-up.svg");
-    background-size: contain;
+    content: url("/svg/doodles/icon-thumb-up.svg");
+    display: inline-block;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
-    float: left;
+    background-size: contain;
     margin-right: 1rem;
 }
 
@@ -769,7 +768,7 @@ ul.highlight-box-green > li > a.button,
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
-    left: -3em;
+    left: -5em;
     float: left;
 }
 .lightbulbs::after {
@@ -782,7 +781,7 @@ ul.highlight-box-green > li > a.button,
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
-    right: -3em;
+    right: -5em;
     float: right;
 }
 
