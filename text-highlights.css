@@ -796,10 +796,9 @@ ul.highlight-box-green > li > a.button,
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: -3em;
-    left: -5em;
+    top: -1em;
+    left: -1em;
     float: left;
-    margin-right: 5px;
 }
 
 .quotes::after {
@@ -811,10 +810,9 @@ ul.highlight-box-green > li > a.button,
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: -3em;
-    right: -5em;
+    top: -1em;
+    right: -1em;
     float: right;
-    margin-left: 5px;
 }
 
 .customer-quote em {
