@@ -654,7 +654,7 @@ ul.highlight-box-green > li > a.button,
     background-repeat: no-repeat;
     background-size: contain;
     /* padding-top: 0.8em; */
-    min-height: 80px;
+    min-height: 100px;
 
     &:hover {
         /* Assign the SVG variable */
