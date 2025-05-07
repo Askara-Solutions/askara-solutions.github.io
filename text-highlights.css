@@ -645,7 +645,7 @@
 
 /* Add the green box outline to buttons */
 ul.highlight-box-green > li > a.button,
-#signup input[type="submit"] {
+#signup > div > div.actions > button {
     background-color: transparent;
 
     /* Assign the SVG variable */
